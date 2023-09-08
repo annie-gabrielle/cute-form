@@ -1,0 +1,83 @@
+ form {
+        text-align:center;
+        border: 2px solid;
+        margin: auto;
+        width: 440px;
+        font-size: 35px;
+        font-family:fonte2;
+        background:rgb(245, 218, 218);
+      }
+
+   /*rgb(141, 63, 63)
+   rgb(217, 186, 186)
+   rgb(209, 155, 155)
+   repeating-radial-gradient(rgb(141, 63, 63))
+   */
+
+
+@font-face {
+    font-family:fonte;
+    src: url(DTM-Mono.otf);}
+
+@font-face {
+    font-family:fonte2;
+    src: url(DTM-Sans.otf);}
+
+    h1{
+        font-size: 60px;
+        font-family:fonte;
+        text-align:center;
+        background-size: 100% 100%;
+        background: radial-gradient(rgb(209, 155, 155), transparent);
+        opacity: 1.0;
+        
+     }
+
+     h4{
+        font-family:fonte;
+        text-align:center;
+        background: radial-gradient(rgb(209, 155, 155), transparent);
+        font-size: 30px;
+     }
+     h6{
+      font-family:fonte;
+      text-align:center;
+      background: radial-gradient(rgb(209, 155, 155), transparent);
+      font-size: 18px;
+   }
+
+     input{
+        background-color:rgb(209, 155, 155) ;
+        opacity: 0.8;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+     }
+
+     #nome{
+        font-family:fonte;
+     }
+
+     body, .form-all {
+        margin-top: 0;
+        background: none;
+    }
+
+    
+    html {
+         min-height: 100%;
+         background-image: url(capa5.jpg); 
+         background-size:cover;
+         background-repeat: no-repeat;
+         zoom: 90%
+     }
+
+     button:hover {
+	   border: 2px solid black;
+	   border-bottom: 150px;
+      width: 90px;
+      font-family:fonte;
+      background-color: rgb(56, 56, 216);
+      color:whitesmoke;
+      cursor:pointer;
+      }

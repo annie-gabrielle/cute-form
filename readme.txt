@@ -1,0 +1,1 @@
+Image font: <a href="https://br.freepik.com/vetores-gratis/expressoes-de-rosto-fofinho-definidas-a-mao-desenhada-cartoon-art-illustration_16702826.htm#query=anime&position=20&from_view=search&track=sph">Imagem de mamewmy</a> no Freepik
