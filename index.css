@@ -19,8 +19,6 @@
          margin-bottom: 10px;
          box-sizing: border-box;
      }
-
-
 @font-face {
     font-family:fonte;
     src: url(DTM-Mono.otf);}
@@ -52,13 +50,6 @@
       font-size: 18px;
    }
 
-     input{
-        background-color:rgb(209, 155, 155) ;
-        opacity: 0.8;
-        font-size: 15px;
-        color: black;
-        font-weight: bold;
-     }
 
      #nome{
         font-family:fonte;
