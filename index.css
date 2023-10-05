@@ -8,11 +8,17 @@
         background:rgb(245, 218, 218);
       }
 
-   /*rgb(141, 63, 63)
-   rgb(217, 186, 186)
-   rgb(209, 155, 155)
-   repeating-radial-gradient(rgb(141, 63, 63))
-   */
+      input {
+         background-color: rgb(209, 155, 155);
+         opacity: 0.8;
+         font-size: 15px;
+         color: black;
+         font-weight: bold;
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 10px;
+         box-sizing: border-box;
+     }
 
 
 @font-face {
@@ -72,12 +78,48 @@
          zoom: 90%
      }
 
-     button:hover {
+     .botoes button {
 	   border: 2px solid black;
-	   border-bottom: 150px;
-      width: 90px;
+      width: 30%;
+      height: 15%;
       font-family:fonte;
-      background-color: rgb(56, 56, 216);
-      color:whitesmoke;
+      background-color: rgb(240, 240, 246);
+      color:rgb(0, 0, 0);
       cursor:pointer;
       }
+      
+      .banco-bt {
+         border: 2px solid black;
+         border-bottom: 150px;
+         width:15%;
+         font-family:fonte;
+         background-color: rgb(209, 209, 230);
+         color:whitesmoke;
+         cursor:pointer;
+         }
+
+      button:hover {
+        
+         background-color:rgb(209, 155, 155);
+         cursor:pointer;
+         }
+
+
+     a {
+         text-decoration: none;
+     }
+
+      @media screen and (max-width: 768px) {
+         input {
+             font-size: 14px;
+         }
+         button {
+            width: 100%; /* Preenche a largura da tela */
+            margin: 10px 0; /* Remove as margens verticais para economizar espaço */
+        }
+     }
+     
+     
+     
+     
+     
